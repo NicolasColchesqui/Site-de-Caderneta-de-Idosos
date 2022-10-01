@@ -1,0 +1,55 @@
+<html>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styloTelaCadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <section class="area-Cadastro">
+        <div class="Cadastro">
+
+            <div>
+                <img src="../imagens/logo.png">
+        </div>
+
+            <a1 id="titulo">CADASTRO</a1>
+            
+            
+            <h2 id="checkbox">Escolha o tipo de conta</h2>
+                <div id="checkbox" class="custom radio">
+                 <input type="checkbox" name="Cuidador" id="cuid">CUIDADOR
+                 <input type="checkbox" name="Idoso" id="Idos">IDOSO
+                </div>
+
+          <form>
+                <input type="nome" name="nomeidoso" placeholder="Digite seu Nome" autofocus>
+                <input type="sobrenome" name="sobrenome" placeholder="Digite seu Sobrenome" autofocus>
+                <input type="user" name="user" placeholder="Digite seu Nome de Usuario" autofocus>
+                <input type="cpf" name="cpf" placeholder="Digite seu CPF" autofocus>
+                <input type="rg" name="rg" placeholder="Digite seu RG" autofocus>
+                <input type="email" name="email" placeholder="Digite seu E-mail" autofocus>  
+                <input type="telefone" name="telefone" placeholder="Digite seu Telefone | Ex:(+55 11 99999-9999)" autofocus>
+                <input type="password1" name="senha" placeholder="Digite sua Senha"> 
+                <input type="password2" name="senha" placeholder="Digite Novamente sua Senha"> 
+
+               <div class="campo">
+                    <label><strong>Qual seu sexo?</strong></label>
+                    <label>
+                    <input type="radio" name="devweb" value="masculino" checked>Masculino
+                    </label>
+                    <label>
+                    <input type="radio" name="devweb" value="feminino">Feminino
+                    </label>
+                    <label>
+                    <input type="radio" name="devweb" value="outros">Outros
+                    </label>
+                </div>
+               <a2 href="TelaLogin.html" id="cadcad"><input type="submit" value="cadastrar"></a2>
+          </form>
+
+    </section>
+</body>
+
+</html>

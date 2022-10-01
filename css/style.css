@@ -1,0 +1,308 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#logominis{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(35, 85, 250);
+    border-color: rgb(55, 34, 247);
+    border-style: inset;
+}
+
+body{
+    background: -webkit-linear-gradient(bottom, rgb(255, 255, 255), rgb(176, 219, 255));
+    margin: 0;
+    padding: 0;
+    font-size: 15;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+#slider{
+    text-align: center;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    height: 45vw;
+    max-height: 250px;
+
+    position: relative;
+}
+
+#idoso{
+    text-align: center;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected{
+    opacity: 1;
+}
+
+#home{
+    text-align: center;
+}
+
+li{
+    cursor: pointer;
+    line-height: 1.8;
+    list-style: none;
+    display: inline;
+    padding-left: 2rem;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+ul{
+    content: "|";
+	line-height: 1.8;
+    text-align: center;
+    color: rgb(0, 0, 0);    
+    background-color: rgb(35, 85, 250);
+    padding: 4px;
+    border-style: none;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+#apresentacao{
+    width: 1000px;
+    left: 50%;
+    top: 50%;
+    text-align: justify;
+    margin-left: 292px;
+}
+
+.carrosel{
+    text-align: center;
+}
+
+#variola{
+    text-align: center;
+}
+
+#tutorial{
+    text-align: center;
+}
+
+#titleapresentacao{
+    text-align: center;
+}
+
+#banneridoso{
+    border-radius: 1%;
+    border-style: solid;
+    border-color: white;
+}
+
+#sectionapresentacao{
+    width: 230px;
+    height: 0px;
+    display: inline-block;
+    background: rgba(248, 248, 248, 0.37);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    height: 5vh;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#section1{
+    width: 100%;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    height: 4vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .footer-distributed{
+      background: rgb(35, 85, 250);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font-family: 'Dosis', sans-serif;
+      padding: 15px 10px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+      width: 40%;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+      color:  #ffffff;
+      margin: 20px 0 12px;
+      padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 0.5;
+      font-weight:400;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+      color:  rgb(255, 255, 255);
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+      padding-left: 1%;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+      width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+      background-color:  #ffffff;
+      color: #ffffff;
+      font-size: 1px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      margin: 10px 15px;
+      vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 35px;
+  }
+  
+  .footer-distributed .footer-center p{
+      display: inline-block;
+      color: #ffffff;
+    font-weight:400;
+      vertical-align: middle;
+      margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+      color:  lightseagreen;
+      text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 5;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+      width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+      line-height: 20px;
+      color:  #ffffff;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+      display: block;
+      color:  #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  @media (max-width: 880px) {
+  
+      .footer-distributed{
+          font: bold 14px sans-serif;
+      }
+  
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+      }
+  
+      .footer-distributed .footer-center i{
+          margin-left: 0;
+      }
+  }
+
+#logoministériodasaude{
+    width: 25%;
+    height: 25%;
+    overflow: hidden;
+}

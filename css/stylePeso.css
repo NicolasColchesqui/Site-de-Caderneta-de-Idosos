@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin:auto;
+}
+
+table, th, td{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+table .inpuAno{
+    width: 160px;
+}
+
+tr :hover{
+    background-color: rgb(67, 177, 204);
+}
+
+input[type="number"]{
+    width: 40px;
+}
+
+table .branco{
+    border: none;
+    border-collapse: collapse;
+}
+
+fieldset .outroField{
+    border-right: 20px solid rgb(67, 177, 204);
+    border-left: 1px solid rgb(67, 177, 204);
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px 1%;
+    margin-bottom: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    border-left: 20px solid rgb(67, 177, 204);
+    display: block;
+}
+
+
+legend{
+    background-color: rgb(67, 177, 204);
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+}
+
+#escalador{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background: linear-gradient(to right, rgb(67, 177, 204), #0f0, #ff0, #f00);
+}
+
+#escalador label{
+    display: block;
+    cursor: pointer;
+    width: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    background: transparent;
+}
+
+body #escalalabel{
+    text-align: center;
+    display: inline;
+}
+
+body #escalalabel #leve{
+    position: relative;
+    right: 115px;
+}
+
+body #escalalabel #intensa{
+    position: relative;
+    left: 120px;
+}

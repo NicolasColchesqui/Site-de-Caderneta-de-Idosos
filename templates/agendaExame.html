@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ministério da Saude - Agenda de Exames e Consultas</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../imagens/ministérioico.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/styleExame.css"><!--Conecta ao CSS-->
+    </head>
+
+    <body>
+        <header id="home">
+            <div class="logo"><img id="logominis" src="../imagens/ministério.png" alt="logo"></div>
+            <nav>
+                <ul>
+                    <a href="../templates/index.html"><li>Voltar</li></a>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <div>
+            <h1 class="txt">Agende seu exame ou consultas por aqui</h1>             
+                </div>
+
+                <div class="search-box">
+                    <input class="search-txt" type="search" name="Especialistas" placeholder="Digite a Especialidade" list="sugestao" autofocus>
+                    <a class="search-bnt" href="../templates/formulario.html">
+                        <i class="fas fa-search"><img id="pesquisa" src="../imagens/pesquisa.png" alt="logo"></i>
+                    </a>
+
+                    <datalist id="sugestao">
+                        <option value="Cardiologia Clinica"></option>
+                        <option value="Clinica Médica Geral"></option>
+                        <option value="Ginecologia Clinica"></option>
+                        <option value="Pneumonia Clinica"></option>                        
+                    </datalist>                          
+                </div>
+        </div>
+
+        <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+        <div class="campo">
+            <label for="senioridade"><strong>Local</strong></label>
+            <select id="senioridade" required>
+              <option selected disabled value="">Selecione</option>
+              <option>UBS SÉ</option>
+              <option>UBS JARDIM NORDESTE</option>
+              <option>UBS BRÁS</option>
+              <option>UBS VILA NOGUEIRA</option>
+              <option>UBS PIRAPORINHA</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+        
+        <!-- Botão para enviar o formulário -->
+        <button class="botao" type="submit" onsubmit="">Concluído</button> 
+        
+        <div class="campo">
+            <label for="datadenascimento"><strong>Agende o dia</strong></label>
+            <input type="date" name="datadenascimento" id="datadenascimento" required>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
+
+
+    </body>
+</html>

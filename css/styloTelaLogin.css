@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+body{
+    background-color: rgb(198, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    overflow: hidden;
+}
+
+#cadastro{
+    font-weight: bold;
+}
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: rgb(116, 234, 255);
+    width: 600px;
+    border: black;
+    height: 600px;
+    text-align: center;
+    margin-top: 1%;
+    padding: 35px;
+    align-items: center;
+    border-radius: 20px;
+    border-style:inset;
+
+
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: rgb(197, 246, 248);
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+#inputo{
+    color: rgb(197, 246, 248);
+    text-decoration: none;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: rgb(0, 103, 129);
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+
+ }
+
+input::placeholder{
+    font-size: 15px;
+    font-style: italic;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: rgb(67, 177, 204);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    color: rgb(0, 103, 129);
+    text-decoration: none;
+    margin-left: 8px;
+    cursor: pointer
+ }
+
+
+#titulo{
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
